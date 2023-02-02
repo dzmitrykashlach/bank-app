@@ -10,7 +10,7 @@ services:
       provisioning-mysql: /data/db
     entrypoint:
       sh -c "
-        echo 'CREATE DATABASE IF NOT EXISTS ${MYSQL_APP_DB};' > /docker-entrypoint-initdb.d/init.sql;
+        echo 'CREATE DATABASE IF NOT EXISTS ${MYSQL_APP_DB}; CREATE DATABASE IF NOT EXISTS ${MYSQL_KEYCLOAK_DB};' > /docker-entrypoint-initdb.d/init.sql;
         /usr/local/bin/docker-entrypoint.sh --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
       "
 volumes:
