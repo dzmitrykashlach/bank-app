@@ -46,6 +46,7 @@ CREATE TABLE `account_transactions` (
 
 LOCK TABLES `account_transactions` WRITE;
 /*!40000 ALTER TABLE `account_transactions` DISABLE KEYS */;
+INSERT INTO `account_transactions` VALUES ('b9b02df2-a85c-11ed-8436-0242ac120002',186576453,1,'2023-02-02','Coffee Shop','Withdrawal',30,34500,'2023-02-02'),('b9b58567-a85c-11ed-8436-0242ac120002',186576453,1,'2023-02-03','Uber','Withdrawal',100,34400,'2023-02-03'),('b9bbaeaf-a85c-11ed-8436-0242ac120002',186576453,1,'2023-02-04','Self Deposit','Deposit',500,34900,'2023-02-04'),('b9c0ac11-a85c-11ed-8436-0242ac120002',186576453,1,'2023-02-05','Ebay','Withdrawal',600,34300,'2023-02-05'),('b9ccdb22-a85c-11ed-8436-0242ac120002',186576453,1,'2023-02-07','OnlineTransfer','Deposit',700,35000,'2023-02-07'),('b9d285bd-a85c-11ed-8436-0242ac120002',186576453,1,'2023-02-08','Amazon.com','Withdrawal',100,34900,'2023-02-08');
 /*!40000 ALTER TABLE `account_transactions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -74,6 +75,7 @@ CREATE TABLE `accounts` (
 
 LOCK TABLES `accounts` WRITE;
 /*!40000 ALTER TABLE `accounts` DISABLE KEYS */;
+INSERT INTO `accounts` VALUES (1,186576453,'Savings','123 Main Street, New York','2023-02-09');
 /*!40000 ALTER TABLE `accounts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -266,4 +268,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-02-08 15:48:17
+-- Dump completed on 2023-02-09 13:13:43

@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-l            "allowedCommonJsDependencies": [
+            "allowedCommonJsDependencies": [
               "base64-js",
               "js-sha256"
            ],
