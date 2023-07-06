@@ -1,0 +1,6 @@
+spring:
+  dzkashlach:
+    starter:
+      id: BlaBlaBlaId
+      url: https://blablabla.com
+      key: blablablaKey

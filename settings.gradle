@@ -1,0 +1,3 @@
+rootProject.name = 'bank-app'
+include 'bank-app-starter'
+include 'bank-app-backend'
